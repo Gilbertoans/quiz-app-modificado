@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Quiz-app</title>
+  </head>
+  <body>
+    <h2>QUIZ APP</h2>
+    <main>
+      <div class="content">
+        <span class="quantidade"></span>
+        <span class="perguntas"></span>
+        <span class="respostas"></span>
+        <div id="progresso">
+          <div id="barra"></div>
+        </div>
+      </div>
+      <div class="fim">
+        <div>
+          <canvas id="myChart" style="width: 200px"></canvas>
+        </div>
+        <span></span>
+        <button class="btn-reset" onclick="resetar()">Reiniciar</button>
+      </div>
+      <span class="nome"></span>
+    </main>
+    <script src="script.js" type="module"></script>
+    <script src="script3.js" type="module"></script>
+  </body>
+</html>
